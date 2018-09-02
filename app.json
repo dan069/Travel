@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/user/user",
+    "pages/blog/blog",
+    "pages/article01/article01",
+    "pages/article02/article02"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87C6FF",
+    "navigationBarTitleText": "旅游攻略",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/images/user.png",
+        "selectedIconPath": "pages/images/user-active.png"
+      }
+    ],
+    "selectedColor": "#1888FC"
+  }
+}
